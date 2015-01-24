@@ -16,7 +16,7 @@ public class Drive {
 		public static double leftRearSpeed;
 		public static Gyro gyro;
 		
-		
+		Drive.update();
 		public static void init(){
 			
 		}
