@@ -1,23 +1,21 @@
 package Drive;
 
+
+import edu.wpi.first.wpilibj.Gyro;
 public class Drive {
 	/**
 	 * PRIMARILY FOR AUTON
 	 * @param speeds gives the speeds to each motor in order, LF, RF, LR, RR
 	 */
-	package CodeFromMechanumTest;
+	
 
-	import edu.wpi.first.wpilibj.Gyro;
-
-	public class Chassis {
+	
 		public static double rightFrontSpeed;
 		public static double rightRearSpeed;
 		public static double leftFrontSpeed;
 		public static double leftRearSpeed;
 		public static Gyro gyro;
-		public Chassis(){		
-			
-		}
+		
 		
 		public static void init(){
 			
